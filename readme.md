@@ -8,7 +8,7 @@
 - Form submit error/success
 - Show or hide Password
 
-![Preview](https://raw.githubusercontent.com/fahimeshti/formValidationJs/master/img/form-validation.png)
+![Preview](img/form-validation.png)
 
 ## Get started with this repo
 
