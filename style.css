@@ -1,0 +1,190 @@
+body {
+    min-height: 100vh;
+    background: #fbfbfb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.page-content-wrapper {
+    padding: 50px 0;
+}
+
+.page-form-body {
+    padding: 40px 30px 35px;
+}
+
+.page-form-header {
+    padding: 30px 10px;
+    border-bottom: 3px solid #4877f1;
+    background-color: #f8f6ff;
+    text-align: center;
+}
+
+.page-form-header h2 {
+    font-size: 26px;
+    color: #131238;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.page-form-header p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #131238;
+    margin-bottom: 0;
+}
+
+.contact-form {
+    margin-bottom: 30px;
+}
+
+.contact-form .custom-control-label a {
+    background: rgb(233, 239, 255);
+    text-decoration: underline;
+}
+
+.contact-form .custom-control-label a:hover {
+    background: rgb(199, 215, 255);
+}
+
+.page-form,
+.contact-info--block {
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.65);
+    border-radius: 20px;
+    -webkit-box-shadow: 0 3px 6px rgba(91, 130, 148, .08);
+    box-shadow: 0 3px 6px rgba(91, 130, 148, .08);
+    width: 100%;
+    border: 1px solid #e8e8ef;
+}
+
+.contact-info--block {
+    margin-bottom: 20px;
+    padding: 1.45rem 1.12rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.contact-info--icon {
+    max-width: 60px;
+    max-height: 60px;
+    margin-right: 15px;
+}
+
+.contact-info--icon img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.contact-info--content p {
+    font-size: 15px;
+    margin-bottom: 0;
+    color: #000000;
+}
+
+.contact-info--content p a {
+    color: #007cdc;
+    text-decoration: none;
+}
+
+.contact-info--content p a:hover {
+    text-decoration: underline;
+}
+
+.contact-info--content h5 {
+    font-weight: 500;
+}
+
+.page-single-input {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.eye-btn {
+    position: absolute;
+    right: 10px;
+    top: 13px;
+}
+
+.eye-btn i {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.page-single-input input,
+.page-single-input select,
+.page-single-input textarea {
+    width: 100%;
+    height: 45px;
+    padding: 6px 15px;
+    border-radius: 8px;
+    color: #172b43;
+    font-size: 16px;
+    outline: none;
+    background: #fff;
+    -webkit-box-shadow: 0 3px 6px rgba(91, 130, 148, .08);
+    box-shadow: 0 3px 6px rgba(91, 130, 148, .08);
+    border: 1px solid #e6e6e6;
+}
+
+.page-single-input input,
+.page-single-input select {
+    height: 50px;
+}
+
+.page-single-input textarea {
+    height: 90px;
+    resize: none;
+}
+
+.page-single-input select {
+    color: #6e6e6e;
+}
+
+.page-single-input textarea:focus {
+    border: 1px solid #673ab7;
+}
+
+.page-single-input input:focus,
+.page-single-input select:focus,
+.page-single-input textarea:focus {
+    border: 1px solid #007cdc;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+}
+
+.page-single-input select option {
+    color: #172b43;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+    outline: none;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0 32px;
+    color: #000000;
+    font-size: 17px;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    background-color: #ffd064;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px 0 rgb(255 193 7 / .2);
+}
+
+label.error {
+    color: rgb(255, 67, 34);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#alertMsg {
+    color: #fff;
+}
