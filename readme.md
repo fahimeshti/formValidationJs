@@ -8,7 +8,7 @@
 - Form submit error/success
 - Show or hide Password
 
-![Preview](img/form-validation.png)
+![Preview](img/form-validation.PNG)
 
 ## Get started with this repo
 
